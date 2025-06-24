@@ -1,0 +1,18 @@
+# FastAPI framework and ASGI server
+fastapi
+uvicorn[standard]
+
+# Real-time WebSocket communication
+python-socketio
+websockets
+
+# ML & statistical modeling
+scikit-learn
+statsmodels
+
+# Numerical & data processing
+numpy
+pandas
+
+# Async HTTP requests (optional utility)
+aiohttp

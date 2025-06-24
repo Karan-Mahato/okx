@@ -1,0 +1,56 @@
+# --- FRONTEND IGNORE RULES ---
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- BACKEND IGNORE RULES ---
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+backend/okxBackend/Lib/
+backend/okxBackend/Scripts/
+backend/okxBackend/Include/
+backend/okxBackend/pyvenv.cfg
+
+# Model and data artifacts
+*.pkl
+*.csv
+*.h5
+*.joblib
+
+# Environment and secrets
+.env
+.env.*
+
+# Test and coverage outputs
+*.cover
+.coverage
+coverage/
+htmlcov/
+
+# Misc
+*.bak
+*.tmp
